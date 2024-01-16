@@ -375,7 +375,7 @@ const Profile = () => {
             Update
           </Button>
         </Box>
-        <Box bg={'#E4FFFF'} display={'flex'} flexDirection={'column'} alignItems={'center'} justifyContent={'center'} w={['full', '50%']} m={'auto'} borderRadius={['0', '20']} pt={5} pb={10} mb={10}>
+        {/*<Box bg={'#E4FFFF'} display={'flex'} flexDirection={'column'} alignItems={'center'} justifyContent={'center'} w={['full', '50%']} m={'auto'} borderRadius={['0', '20']} pt={5} pb={10} mb={10}>
           <Box display={'flex'} flexDirection={'column'} mt={'5'} w={['80%', '60%']}>
             <Heading fontSize={'1.2rem'} alignSelf={'flex-start'} ml={1}>Resume</Heading>
           </Box>
@@ -397,7 +397,7 @@ const Profile = () => {
           <Button onClick={uploadResume} mt={10} bg={'#007BFF'} color={'white'} _hover={{ bg: '#49BBBD' }}>
             Upload Resume
           </Button>
-        </Box>
+        </Box>*/}
       </Box>
     </Box>
   );

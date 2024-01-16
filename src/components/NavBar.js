@@ -72,7 +72,7 @@ const Navbar = ({ isAdmin }) => {
                 {isAdmin && <Link to='/admin'><MenuItem>Admin Interface</MenuItem></Link>}
                 {!isAdmin && <Link to={'/applied'}><MenuItem>My Applications</MenuItem></Link>}
                 <Link to={'/changePassword'}><MenuItem>Change Password</MenuItem></Link>
-                {!isAdmin && <MenuItem onClick={async () => {
+                {/* {!isAdmin && <MenuItem onClick={async () => {
                   try {
                     const accessToken = window.sessionStorage.getItem('accessToken');
                     const formData = new FormData();
@@ -106,7 +106,7 @@ const Navbar = ({ isAdmin }) => {
                 }}>
                   My Resume
                 </MenuItem>
-                }
+                } */}
                 <MenuItem
                   onClick={() => {
                     window.sessionStorage.removeItem('accessToken');
